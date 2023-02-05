@@ -5,11 +5,10 @@ export type Props = any;
 export type ElementType = any;
 
 export interface ReactElementType {
-  $$typeof: Symbol | number;
-  type: Type;
-  key: Key;
-  props: Props;
-  ref: Ref;
-  __mark: string;
+	$$typeof: symbol | number;
+	type: Type;
+	key: Key;
+	props: Props;
+	ref: Ref;
+	__mark: string;
 }
-
